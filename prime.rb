@@ -4,4 +4,4 @@ def prime(integer)
     return true if integer % i == 0
   end
   return false
-end 
+end
