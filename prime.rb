@@ -1,5 +1,5 @@
 
-def prime(max)
+def myprime(max)
   # Set up an array with all the numbers from 0 to the max
   primes = (0..max).to_a
 
@@ -28,7 +28,7 @@ def prime(max)
 end
 
 def prime?(num)
-  sieve(num).include?(num)
+  myprime(num).include?(num)
 end
 
 puts prime?(105557)
