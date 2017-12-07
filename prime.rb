@@ -13,7 +13,7 @@ def prime(max)
     # Skip if nil
     next unless p
 
-    # Break if we are past the square root of the max value 
+    # Break if we are past the square root of the max value
     break if p*p > max
     counter += 1
     # Start at the square of the current number, and step through.
